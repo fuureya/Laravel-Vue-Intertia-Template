@@ -1,10 +1,12 @@
 import { defineConfig } from "vite";
 import laravel from "laravel-vite-plugin";
-import vue from "@vitejs/plugin-vue"; // 👈 tambahkan ini
+import vue from "@vitejs/plugin-vue";
 import path from "path";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
     plugins: [
+        tailwindcss(),
         vue(),
         laravel({
             input: ["resources/css/app.css", "resources/js/app.js"],

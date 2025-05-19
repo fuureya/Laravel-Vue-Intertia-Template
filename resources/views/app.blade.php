@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Vue</title>
     @vite('resources/js/app.js')
+    @vite('resources/css/app.css')
     @inertiaHead
 </head>
 
