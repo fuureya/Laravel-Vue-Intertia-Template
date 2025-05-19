@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>test</title>
+    <title>Vue</title>
     @vite('resources/js/app.js')
     @inertiaHead
 </head>
